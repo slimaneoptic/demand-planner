@@ -1,0 +1,8 @@
+streamlit>=1.50
+pandas>=2.0
+numpy>=1.26
+scikit-learn>=1.4
+statsmodels>=0.14
+ortools>=9.11
+altair>=5
+openpyxl>=3.1

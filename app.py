@@ -14,7 +14,7 @@ from forecast import HORIZON, MODELS, accuracy_table, forecast_all
 from inventory import SETTINGS_COLUMNS, plan, plan_table, projection
 
 # ---- edit these two lines -------------------------------------------------
-AUTHOR = "Slimane"
+AUTHOR = "S'limane"
 HIRE_URL = "https://www.upwork.com/freelancers/~01d6ae0f1a06a43ac0"
 # ---------------------------------------------------------------------------
 

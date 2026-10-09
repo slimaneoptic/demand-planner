@@ -1,6 +1,12 @@
 # Demand forecast & reorder planner
 
-**Live demo:** https://slimaneoptic-planner.streamlit.app
+4 models backtested per product, then a reorder plan.
+
+**Live demo:** https://slimanechanchoul.com/planner/ · Streamlit app (may take a minute to wake): https://slimaneoptic-planner.streamlit.app
+
+Demo on sample data.
+
+Tests: `pytest -q tests`
 
 Forecasts the next 16 weeks for every product, tests four forecasting models on the shop's own history and keeps the most accurate one per product, then says **what to order this week**: which products, how many units, and what to buy first when the budget is limited. It starts with a sample coffee-equipment shop (8 products, 3 years of weekly sales), and you can **upload your own sales file**.
 
